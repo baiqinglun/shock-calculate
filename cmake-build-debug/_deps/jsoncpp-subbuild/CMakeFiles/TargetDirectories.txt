@@ -1,0 +1,3 @@
+E:/Programming/c++/H2-shock/cmake-build-debug/_deps/jsoncpp-subbuild/CMakeFiles/jsoncpp-populate.dir
+E:/Programming/c++/H2-shock/cmake-build-debug/_deps/jsoncpp-subbuild/CMakeFiles/edit_cache.dir
+E:/Programming/c++/H2-shock/cmake-build-debug/_deps/jsoncpp-subbuild/CMakeFiles/rebuild_cache.dir

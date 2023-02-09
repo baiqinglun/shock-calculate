@@ -1,0 +1,91 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/jsoncpp-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/jsoncpp-build/pkg-config/jsoncpp.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/jsoncpp",
+			"exportName" : "jsoncpp",
+			"exportTargets" : 
+			[
+				{
+					"id" : "jsoncpp_lib::@73fdddb0eb7ed205e753",
+					"index" : 31
+				},
+				{
+					"id" : "jsoncpp_static::@73fdddb0eb7ed205e753",
+					"index" : 34
+				},
+				{
+					"id" : "jsoncpp_object::@73fdddb0eb7ed205e753",
+					"index" : 32
+				}
+			],
+			"paths" : 
+			[
+				"_deps/jsoncpp-build/CMakeFiles/Export/8728d72a6b86aa6ce8d1b9aa67305bd2/jsoncppConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/jsoncpp",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/jsoncpp-build/jsoncppConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/jsoncpp-build",
+		"source" : "cmake-build-debug/_deps/jsoncpp-src"
+	}
+}
